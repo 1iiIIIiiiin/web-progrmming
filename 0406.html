@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" name="test">
+        <select name="cars" id="cars">
+            <option value="bmw">BMW</option>
+            <option value="benz">벤츠</option>
+            <option value="hyundai">현대차</option>
+            <option value="kia" selected>기아</option>
+        </select>
+        <select name="month" id="month">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>            
+        </select>
+        <select name="network" id="network">
+            <option value="com">.com</option>
+            <option value="net">.net</option>
+            <option value="org">.org</option>
+            <option value="kr">.kr</option>
+        </select>
+        <br>
+        <p>여러분이 선호하는 브라우저를 선택해 주세요</p>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="구글 크롬">
+            <option value="엣지">
+            <option value="사파리">
+            <option value="파이어폭스">
+        </datalist>
+        <!-- 주요 속성 -->
+        <input type="text" placeholder="8~12자 (특수문자 포함)">
+        <br>
+        <input type="date">
+        <input type="email" required>
+        <!-- <input type="submit"> -->
+        <!-- 버튼 -->
+        <input type="button" value="로그인" onclick="f();">
+        <button type="button">제출</button>
+        <button>제출</button>
+        <button><img src="" alt="버튼1"></button>
+        <br>
+        <!-- 쪽지 시험 -->
+        <img src="pattern.jpg" width="300" height="200" alt="패턴사진" title="패턴 사진">
+        <a href="https://www.google.com">Google 검색</a>
+    </form>
+</body>
+</html>
